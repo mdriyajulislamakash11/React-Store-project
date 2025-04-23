@@ -1,0 +1,591 @@
+[
+    {
+      "id": 1,
+      "name": "Espresso",
+      "image": "https://i.ibb.co.com/zVh1Z08d/1.jpg",
+      "category": "Brewed Coffee",
+      "ingredients": ["Coffee Beans", "Water"],
+      "nutrition_info": {
+        "calories": 2,
+        "fat": 0,
+        "carbohydrates": 0,
+        "protein": 0
+      },
+      "origin": "Italy",
+      "type": "Strong",
+      "description": "A concentrated coffee brewed by forcing hot water through finely-ground coffee.",
+      "making_process": "Grind coffee beans finely. Pack the grounds into the portafilter and use an espresso machine.",
+      "rating": 4.5,
+      "popularity": 98
+    },
+    {
+      "id": 2,
+      "name": "Latte",
+      "image": "https://i.ibb.co.com/Y4GrryY3/2.jpg",
+      "category": "Brewed Coffee",
+      "ingredients": ["Espresso", "Steamed Milk"],
+      "nutrition_info": {
+        "calories": 120,
+        "fat": 5,
+        "carbohydrates": 10,
+        "protein": 6
+      },
+      "origin": "Italy",
+      "type": "Mild",
+      "description": "A coffee drink made with espresso and steamed milk.",
+      "making_process": "Brew an espresso shot and add steamed milk with a thin layer of foam.",
+      "rating": 4.3,
+      "popularity": 95
+    },
+    {
+      "id": 3,
+      "name": "Cappuccino",
+      "image": "https://i.ibb.co.com/7NVvy0Cy/3.jpg",
+      "category": "Brewed Coffee",
+      "ingredients": ["Espresso", "Steamed Milk", "Foam"],
+      "nutrition_info": {
+        "calories": 80,
+        "fat": 4,
+        "carbohydrates": 6,
+        "protein": 4
+      },
+      "origin": "Italy",
+      "type": "Balanced",
+      "description": "Espresso mixed with equal parts steamed milk and foam.",
+      "making_process": "Prepare espresso, add steamed milk, then top with milk foam.",
+      "rating": 4.6,
+      "popularity": 93
+    },
+    {
+      "id": 4,
+      "name": "Cold Brew",
+      "image": "https://i.ibb.co.com/fVjypmW3/4.jpg",
+      "category": "Iced Coffee",
+      "ingredients": ["Coffee Beans", "Cold Water"],
+      "nutrition_info": {
+        "calories": 5,
+        "fat": 0,
+        "carbohydrates": 0,
+        "protein": 0
+      },
+      "origin": "USA",
+      "type": "Smooth",
+      "description": "Coffee brewed with cold water over a long period.",
+      "making_process": "Steep coarsely ground coffee in cold water for 12-24 hours.",
+      "rating": 4.4,
+      "popularity": 90
+    },
+    {
+      "id": 5,
+      "name": "Iced Latte",
+      "image": "https://i.ibb.co.com/Y4fSNRqZ/5.jpg",
+      "category": "Iced Coffee",
+      "ingredients": ["Espresso", "Cold Milk", "Ice"],
+      "nutrition_info": {
+        "calories": 100,
+        "fat": 3,
+        "carbohydrates": 8,
+        "protein": 5
+      },
+      "origin": "Italy",
+      "type": "Refreshing",
+      "description": "Cold version of a latte served with ice.",
+      "making_process": "Brew espresso, add cold milk and pour over ice.",
+      "rating": 4.2,
+      "popularity": 87
+    },
+    {
+      "id": 6,
+      "name": "Iced Americano",
+      "image": "https://i.ibb.co.com/BKyCnxhB/6.jpg",
+      "category": "Iced Coffee",
+      "ingredients": ["Espresso", "Cold Water", "Ice"],
+      "nutrition_info": {
+        "calories": 5,
+        "fat": 0,
+        "carbohydrates": 0,
+        "protein": 0
+      },
+      "origin": "USA",
+      "type": "Light",
+      "description": "Espresso with cold water served over ice.",
+      "making_process": "Dilute espresso with cold water and serve with ice.",
+      "rating": 4.1,
+      "popularity": 85
+    },
+    {
+      "id": 7,
+      "name": "Affogato",
+      "image": "https://i.ibb.co.com/KxY640C0/7.jpg",
+      "category": "Dessert Coffee",
+      "ingredients": ["Espresso", "Vanilla Ice Cream"],
+      "nutrition_info": {
+        "calories": 210,
+        "fat": 8,
+        "carbohydrates": 25,
+        "protein": 4
+      },
+      "origin": "Italy",
+      "type": "Sweet",
+      "description": "Dessert with hot espresso poured over vanilla ice cream.",
+      "making_process": "Scoop vanilla ice cream and pour a shot of hot espresso over it.",
+      "rating": 4.7,
+      "popularity": 91
+    },
+    {
+      "id": 8,
+      "name": "Mocha",
+      "image": "https://i.ibb.co.com/SXBH6z4L/9.jpg",
+      "category": "Dessert Coffee",
+      "ingredients": ["Espresso", "Steamed Milk", "Chocolate Syrup"],
+      "nutrition_info": {
+        "calories": 160,
+        "fat": 6,
+        "carbohydrates": 20,
+        "protein": 5
+      },
+      "origin": "Yemen",
+      "type": "Chocolatey",
+      "description": "Coffee drink that combines espresso with chocolate and milk.",
+      "making_process": "Mix chocolate syrup with espresso and add steamed milk.",
+      "rating": 4.5,
+      "popularity": 89
+    },
+    {
+      "id": 9,
+      "name": "Frappuccino",
+      "image": "https://i.ibb.co.com/LD6PBpqN/10.jpg",
+      "category": "Dessert Coffee",
+      "ingredients": ["Coffee", "Milk", "Ice", "Sugar"],
+      "nutrition_info": {
+        "calories": 240,
+        "fat": 10,
+        "carbohydrates": 30,
+        "protein": 5
+      },
+      "origin": "USA",
+      "type": "Blended",
+      "description": "Blended iced coffee with milk and sugar.",
+      "making_process": "Blend all ingredients until smooth and creamy.",
+      "rating": 4.0,
+      "popularity": 88
+    },
+    {
+      "id": 10,
+      "name": "Macchiato",
+      "image": "https://i.ibb.co.com/3mZpYv8g/11.jpg",
+      "category": "Brewed Coffee",
+      "ingredients": ["Espresso", "Foamed Milk"],
+      "nutrition_info": {
+        "calories": 15,
+        "fat": 1,
+        "carbohydrates": 1,
+        "protein": 1
+      },
+      "origin": "Italy",
+      "type": "Bold",
+      "description": "Espresso with a small amount of foamed milk.",
+      "making_process": "Prepare espresso and top with a dollop of foamed milk.",
+      "rating": 4.3,
+      "popularity": 84
+    },
+    {
+      "id": 11,
+      "name": "Flat White",
+      "image": "https://i.ibb.co.com/DHN4WmyH/12.jpg",
+      "category": "Brewed Coffee",
+      "ingredients": ["Espresso", "Steamed Milk"],
+      "nutrition_info": {
+        "calories": 110,
+        "fat": 4,
+        "carbohydrates": 9,
+        "protein": 6
+      },
+      "origin": "Australia",
+      "type": "Smooth",
+      "description": "Similar to a latte but with microfoam and stronger espresso flavor.",
+      "making_process": "Pour microfoamed milk over a double shot of espresso.",
+      "rating": 4.4,
+      "popularity": 86
+    },
+    {
+      "id": 12,
+      "name": "Irish Coffee",
+      "image": "https://i.ibb.co.com/3mZpYv8g/11.jpg",
+      "category": "Dessert Coffee",
+      "ingredients": ["Hot Coffee", "Irish Whiskey", "Sugar", "Cream"],
+      "nutrition_info": {
+        "calories": 210,
+        "fat": 7,
+        "carbohydrates": 15,
+        "protein": 2
+      },
+      "origin": "Ireland",
+      "type": "Alcoholic",
+      "description": "Classic cocktail of hot coffee, whiskey, and cream.",
+      "making_process": "Combine coffee, whiskey, and sugar. Top with lightly whipped cream.",
+      "rating": 4.6,
+      "popularity": 92
+    },
+    {
+    "id": 13,
+    "name": "Turkish Coffee",
+    "image": "https://i.ibb.co.com/S4dhZfzf/14.jpg",
+    "category": "Brewed Coffee",
+    "ingredients": ["Finely Ground Coffee", "Water", "Sugar"],
+    "nutrition_info": {
+      "calories": 30,
+      "fat": 0,
+      "carbohydrates": 7,
+      "protein": 0
+    },
+    "origin": "Turkey",
+    "type": "Strong",
+    "description": "Unfiltered coffee prepared in a cezve with foam on top.",
+    "making_process": "Mix coffee and sugar in a cezve, boil until foamy.",
+    "rating": 4.5,
+    "popularity": 89
+  },
+  {
+    "id": 14,
+    "name": "Café au Lait",
+    "image": "https://i.ibb.co.com/Y4fSNRqZ/5.jpg",
+    "category": "Brewed Coffee",
+    "ingredients": ["Brewed Coffee", "Steamed Milk"],
+    "nutrition_info": {
+      "calories": 90,
+      "fat": 3,
+      "carbohydrates": 7,
+      "protein": 4
+    },
+    "origin": "France",
+    "type": "Mild",
+    "description": "Coffee with equal parts of brewed coffee and steamed milk.",
+    "making_process": "Pour equal parts coffee and steamed milk into a cup.",
+    "rating": 4.2,
+    "popularity": 85
+  },
+  {
+    "id": 15,
+    "name": "Ristretto",
+    "image": "https://i.ibb.co.com/Q74t0Wy5/15.jpg",
+    "category": "Brewed Coffee",
+    "ingredients": ["Coffee Beans", "Water"],
+    "nutrition_info": {
+      "calories": 2,
+      "fat": 0,
+      "carbohydrates": 0,
+      "protein": 0
+    },
+    "origin": "Italy",
+    "type": "Extra Strong",
+    "description": "A short shot of espresso using less water.",
+    "making_process": "Brew espresso with less water for a concentrated shot.",
+    "rating": 4.6,
+    "popularity": 83
+  },
+  {
+    "id": 16,
+    "name": "Red Eye",
+    "image": "https://i.ibb.co.com/chxLrfnC/16.jpg",
+    "category": "Brewed Coffee",
+    "ingredients": ["Drip Coffee", "Espresso Shot"],
+    "nutrition_info": {
+      "calories": 10,
+      "fat": 0,
+      "carbohydrates": 1,
+      "protein": 0
+    },
+    "origin": "USA",
+    "type": "Bold",
+    "description": "A cup of drip coffee with a shot of espresso.",
+    "making_process": "Brew drip coffee and add an espresso shot.",
+    "rating": 4.3,
+    "popularity": 81
+  },
+  {
+    "id": 17,
+    "name": "Cortado",
+    "image": "https://i.ibb.co.com/WNnvCwtB/17.jpg",
+    "category": "Brewed Coffee",
+    "ingredients": ["Espresso", "Warm Milk"],
+    "nutrition_info": {
+      "calories": 60,
+      "fat": 2,
+      "carbohydrates": 5,
+      "protein": 3
+    },
+    "origin": "Spain",
+    "type": "Smooth",
+    "description": "Espresso cut with a small amount of warm milk.",
+    "making_process": "Brew espresso and add equal amount of steamed milk.",
+    "rating": 4.4,
+    "popularity": 88
+  },
+  {
+    "id": 18,
+    "name": "Espresso Con Panna",
+    "image": "https://i.ibb.co.com/21zVF2m6/18.jpg",
+    "category": "Dessert Coffee",
+    "ingredients": ["Espresso", "Whipped Cream"],
+    "nutrition_info": {
+      "calories": 90,
+      "fat": 7,
+      "carbohydrates": 2,
+      "protein": 1
+    },
+    "origin": "Italy",
+    "type": "Sweet",
+    "description": "Espresso topped with whipped cream.",
+    "making_process": "Brew espresso and add a dollop of whipped cream.",
+    "rating": 4.3,
+    "popularity": 84
+  },
+  {
+    "id": 19,
+    "name": "Vietnamese Iced Coffee",
+    "image": "https://i.ibb.co.com/SXBH6z4L/9.jpg",
+    "category": "Iced Coffee",
+    "ingredients": ["Strong Brewed Coffee", "Sweetened Condensed Milk", "Ice"],
+    "nutrition_info": {
+      "calories": 160,
+      "fat": 3,
+      "carbohydrates": 27,
+      "protein": 2
+    },
+    "origin": "Vietnam",
+    "type": "Sweet",
+    "description": "Strong coffee served with sweetened condensed milk over ice.",
+    "making_process": "Brew coffee, mix with condensed milk, pour over ice.",
+    "rating": 4.7,
+    "popularity": 91
+  },
+  {
+    "id": 20,
+    "name": "Coffee Tonic",
+    "image": "https://i.ibb.co.com/fRnC43V/20.jpg",
+    "category": "Iced Coffee",
+    "ingredients": ["Espresso", "Tonic Water", "Ice"],
+    "nutrition_info": {
+      "calories": 45,
+      "fat": 0,
+      "carbohydrates": 11,
+      "protein": 0
+    },
+    "origin": "Sweden",
+    "type": "Fizzy",
+    "description": "Sparkling tonic mixed with a shot of espresso.",
+    "making_process": "Pour tonic water into glass, add espresso on top.",
+    "rating": 4.0,
+    "popularity": 78
+  },
+  {
+    "id": 21,
+    "name": "Café Bombón",
+    "image": "https://i.ibb.co.com/JF004sz1/25.jpg",
+    "category": "Dessert Coffee",
+    "ingredients": ["Espresso", "Sweetened Condensed Milk"],
+    "nutrition_info": {
+      "calories": 140,
+      "fat": 2,
+      "carbohydrates": 24,
+      "protein": 2
+    },
+    "origin": "Spain",
+    "type": "Sweet",
+    "description": "Espresso served with an equal amount of condensed milk.",
+    "making_process": "Pour condensed milk and top with espresso.",
+    "rating": 4.5,
+    "popularity": 87
+  },
+  {
+    "id": 22,
+    "name": "Mazagran",
+    "image": "https://i.ibb.co.com/vxntKBRf/24.jpg",
+    "category": "Iced Coffee",
+    "ingredients": ["Coffee", "Lemon Juice", "Sugar", "Ice"],
+    "nutrition_info": {
+      "calories": 50,
+      "fat": 0,
+      "carbohydrates": 12,
+      "protein": 0
+    },
+    "origin": "Algeria",
+    "type": "Citrusy",
+    "description": "Cold coffee drink with lemon juice and sugar.",
+    "making_process": "Mix ingredients and serve over ice.",
+    "rating": 4.1,
+    "popularity": 75
+  },
+  {
+    "id": 23,
+    "name": "Patrick Brew",
+    "image": "https://i.ibb.co.com/SwYnMVp9/23.jpg",
+    "category": "Brewed Coffee",
+    "ingredients": [
+      "Water",
+      "Espresso",
+      "Coffee Beans"
+    ],
+    "nutrition_info": {
+      "calories": 25,
+      "fat": 4,
+      "carbohydrates": 16,
+      "protein": 5
+    },
+    "origin": "Ireland",
+    "type": "Mild",
+    "description": "Let benefit begin experience we practice step quite couple series will.",
+    "making_process": "Seven likely free another option few weight staff line west pressure minute necessary generation prepare stuff area nice mouth hard thousand.",
+    "rating": 4.0,
+    "popularity": 94
+  },
+  {
+    "id": 24,
+    "name": "Melvin Brew",
+    "image": "https://i.ibb.co.com/svT6XJq2/22.jpg",
+    "category": "Iced Coffee",
+    "ingredients": [
+      "Cream",
+      "Milk"
+    ],
+    "nutrition_info": {
+      "calories": 87,
+      "fat": 1,
+      "carbohydrates": 13,
+      "protein": 4
+    },
+    "origin": "Yemen",
+    "type": "Sweet",
+    "description": "Ready husband through civil able eat idea day century.",
+    "making_process": "Item election rate your region product get during today item positive really church field they suddenly stop herself.",
+    "rating": 4.7,
+    "popularity": 84
+  },
+  {
+    "id": 25,
+    "name": "Tyler Brew",
+    "image": "https://i.ibb.co.com/F4b5XXY9/21.jpg",
+    "category": "Brewed Coffee",
+    "ingredients": [
+      "Whiskey",
+      "Foam",
+      "Coffee Beans"
+    ],
+    "nutrition_info": {
+      "calories": 103,
+      "fat": 4,
+      "carbohydrates": 30,
+      "protein": 6
+    },
+    "origin": "Colombia",
+    "type": "Mild",
+    "description": "Could raise her item low style ball from build buy support production road perform.",
+    "making_process": "Involve which million off wear million he occur name hard age training show among professional office others view.",
+    "rating": 4.8,
+    "popularity": 85
+  },
+  {
+    "id": 26,
+    "name": "Joseph Brew",
+    "image": "https://i.ibb.co.com/LD6PBpqN/10.jpg",
+    "category": "Iced Coffee",
+    "ingredients": [
+      "Sugar",
+      "Steamed Milk"
+    ],
+    "nutrition_info": {
+      "calories": 92,
+      "fat": 3,
+      "carbohydrates": 15,
+      "protein": 2
+    },
+    "origin": "Colombia",
+    "type": "Bold",
+    "description": "Learn follow Mrs size store case skill will head list threat soon detail.",
+    "making_process": "Often serve picture cell relationship town commercial work nation minute line Democrat rich rise in stock trial TV.",
+    "rating": 4.3,
+    "popularity": 94
+  },
+  {
+    "id": 27,
+    "name": "Christopher Brew",
+    "image": "https://i.ibb.co.com/DHN4WmyH/12.jpg",
+    "category": "Brewed Coffee",
+    "ingredients": [
+      "Ice",
+      "Espresso",
+      "Coffee Beans"
+    ],
+    "nutrition_info": {
+      "calories": 31,
+      "fat": 1,
+      "carbohydrates": 3,
+      "protein": 2
+    },
+    "origin": "Ireland",
+    "type": "Bold",
+    "description": "Before level team crime politics dinner room share whether charge eye.",
+    "making_process": "Cover two person yet truth hot treatment space both cold Mrs such every discussion key election news would sell.",
+    "rating": 4.9,
+    "popularity": 90
+  },
+  {
+    "id": 28,
+    "name": "Cortado",
+    "image": "https://i.ibb.co.com/Y4GrryY3/2.jpg",
+    "category": "Brewed Coffee",
+    "ingredients": ["Espresso", "Warm Milk"],
+    "nutrition_info": {
+      "calories": 50,
+      "fat": 2,
+      "carbohydrates": 3,
+      "protein": 3
+    },
+    "origin": "Spain",
+    "type": "Balanced",
+    "description": "Equal parts espresso and warm milk to reduce acidity.",
+    "making_process": "Pull a shot of espresso and add an equal amount of warm milk.",
+    "rating": 4.3,
+    "popularity": 83
+  },
+  {
+    "id": 29,
+    "name": "Turkish Coffee",
+    "image": "https://i.ibb.co.com/chxLrfnC/16.jpg",
+    "category": "Traditional Coffee",
+    "ingredients": ["Finely Ground Coffee", "Water", "Sugar"],
+    "nutrition_info": {
+      "calories": 25,
+      "fat": 0,
+      "carbohydrates": 5,
+      "protein": 0
+    },
+    "origin": "Turkey",
+    "type": "Strong",
+    "description": "A traditional unfiltered coffee brewed in a cezve pot.",
+    "making_process": "Mix finely ground coffee with water and sugar, then boil slowly.",
+    "rating": 4.5,
+    "popularity": 88
+  },
+  {
+    "id": 30,
+    "name": "Vietnamese Egg Coffee",
+    "image": "https://i.ibb.co.com/7NVvy0Cy/3.jpgv",
+    "category": "Dessert Coffee",
+    "ingredients": ["Egg Yolk", "Sweetened Condensed Milk", "Coffee"],
+    "nutrition_info": {
+      "calories": 180,
+      "fat": 8,
+      "carbohydrates": 18,
+      "protein": 6
+    },
+    "origin": "Vietnam",
+    "type": "Creamy",
+    "description": "Sweet and rich coffee topped with whipped egg yolk and condensed milk.",
+    "making_process": "Whisk egg yolk and condensed milk, pour over strong coffee.",
+    "rating": 4.8,
+    "popularity": 90
+  }
+]
+  

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Outlet } from "react-router-dom";
 
 const MainLayouts = () => {
   return (
@@ -9,9 +10,9 @@ const MainLayouts = () => {
       <Navbar />
 
       {/* dynamic routes */}
-      <div className="min-h-[calc(100vh-300px)]">
+      <div className="min-h-[calc(100vh-300px)] container py-16 mx-auto">
         {/* content */}
-        
+        <Outlet />
       </div>
 
 
