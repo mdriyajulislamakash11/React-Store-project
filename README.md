@@ -1,12 +1,39 @@
-# React + Vite
+# ☕ BrewHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **BrewHub** — your ultimate coffee companion! This is a React-based coffee catalog app where users can browse through a variety of coffees, discover new flavors, and manage their favorite brews all in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌍 Live Site
 
-## Expanding the ESLint configuration
+🔗 [Visit BrewHub](https://glittery-cannoli-98cc64.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Key Features
+
+- ✅ Coffee catalog with images, names & details
+- 🔍 Category-wise filtering (upcoming)
+- 💡 Responsive design for all devices
+- 🧭 Smooth navigation using React Router
+- 🧩 Reusable component structure
+- 💨 Tailwind CSS for fast & clean styling
+
+---
+
+## 🧰 Tech Stack
+
+- React
+- React Router DOM
+- Tailwind CSS
+- DaisyUI
+- JSON-based data loading
+
+---
+
+## 🧪 How to Run
+
+1. Clone the project:
+
+```bash
+git clone https://github.com/your-username/brewhub.git
