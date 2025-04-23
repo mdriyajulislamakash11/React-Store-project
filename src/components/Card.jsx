@@ -1,8 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { FaTrashCan } from "react-icons/fa6";
+import { Link, useLocation } from "react-router-dom";
 
-const Card = ({ coffee }) => {
+const Card = ({ coffee, handleRemoved }) => {
 
+    const {pathname} = useLocation()
+    console.log(pathname)
 
   const { popularity, rating, id, type, origin, category, image, name } =
     coffee || {};
@@ -35,7 +38,7 @@ const Card = ({ coffee }) => {
           </p>
         </div>
       </Link>
-{/* 
+
       {pathname === "/dashboard" && (
         <button
           onClick={() => handleRemoved(id)}
@@ -43,7 +46,7 @@ const Card = ({ coffee }) => {
         >
           <FaTrashCan />
         </button>
-      )} */}
+      )}
     </div>
   );
 };
